@@ -1,0 +1,73 @@
+/* base */
+*{
+    position: relative;
+    color: $black;
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+h1{
+    margin: 0;
+}
+h2{
+    font-family: "Lato",sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: bold;
+}
+h5{
+    font-family: "Lato",sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+h6{
+    font-family: "Lato",sans-serif;
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+li, a, p,div{
+    font-family: "Lato",sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+label{
+    font-family: "Lato",sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+input, select{
+    font-family: "Lato",sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #212529;
+    display: inline-block;
+    vertical-align: middle;
+}
+a:hover{
+    color: $black;
+}
+button{
+    background: none;
+    border: 0;
+    padding: 0;
+}
+span{
+    vertical-align: middle;
+}
+ul, ol{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}

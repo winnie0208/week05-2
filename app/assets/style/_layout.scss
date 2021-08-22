@@ -1,0 +1,49 @@
+.side-bar{
+    width: 296px;
+    height: 100vh;
+}
+.logo{
+    display: inline-block;
+    background-image: url(../images/logo-ANSWER.svg);
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    width: 100%;
+    height: 94px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.nav{
+    height: calc(100vh - 94px);
+}
+.menu{
+    margin: 0;
+    padding-left: 0;
+}
+.menu li {
+    margin-bottom: 24px;
+}
+.menu li a{
+    padding: 8px 0;
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+}
+.menu li a span{
+    margin-right: 16px;
+    vertical-align: middle;
+}
+.photo{
+    background-image: url(../images/andychen.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    padding: 0 32px;
+}
