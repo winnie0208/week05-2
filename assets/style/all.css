@@ -305,7 +305,7 @@ img {
   padding: 32px 0 0 0;
   border: 0; }
 
-.collapsed .expand-more {
+.collapsed .expand {
   transform: rotate(0 deg); }
 
 .expand {
@@ -316,6 +316,9 @@ img {
 
 .pen-card .modal-body {
   padding: 0 32px 32px 32px; }
+
+.pen-card .modal-body::-webkit-scrollbar {
+  display: none; }
 
 .pen-card .modal-footer {
   padding: 16px 32px; }
